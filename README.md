@@ -16,5 +16,18 @@ docker start -i <container-name/>
 ```
 ### To stop container 
 ```sh
-docker stop -i <container-name/>
+docker stop  <container-name/>
+```
+## To remove container 
+```sh 
+docker rm <container-id/>
+```
+
+### To  PULL  IMAGE ---> CREATE CONTAINER ---> RUN CONTAINER 
+```sh
+docker run <image-name/>
+```
+### To  PULL  IMAGE ---> CREATE CONTAINER ---> RUN CONTAINER ---> EXCUTE COMMAND
+```sh
+ docker run -it <image-name/> <command/> 
 ```
